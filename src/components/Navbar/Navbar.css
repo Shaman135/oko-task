@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+.navbar {
+  padding: 16px 80px;
+  max-height: 72px;
+  height: 72px;
+  background-color: white;
+  display: flex;
+  box-shadow: 0px 2px 3px 0px #0000001a;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  justify-content: space-between;
+}
+
+.left,
+.right {
+  display: flex;
+}
+
+.logo-mock {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  outline: 3px solid black;
+  border-top-right-radius: 100%;
+}
+
+.logo-mock:hover {
+  cursor: pointer;
+}
+
+.logo-mock > .dot {
+  position: absolute;
+  background-color: #9e1c1c;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  left: 37.08%;
+  right: 28.47%;
+  top: 26.13%;
+  bottom: 38.47%;
+}
+
+.navbar ul.links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.links > li {
+  display: inline-block;
+  margin-left: 32px;
+  margin-top: 6.5px;
+  margin-bottom: 14.5px;
+}
+
+ul.links > li:hover {
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: #9e1c1c;
+  border-radius: 20px;
+  border-width: 0;
+  color: white;
+  padding: 10.5px 22.5px;
+  font: inherit;
+  margin-left: 30px;
+}
+
+.login-btn:hover {
+  cursor: pointer;
+}
